@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "充值",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "my-card": "/components/my-card",
+    "u-form": "/uni_modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "my-button": "/components/my-button",
+    "u-keyboard": "/uni_modules/uview-ui/components/u-keyboard/u-keyboard"
+  }
+}

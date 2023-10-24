@@ -1,0 +1,1 @@
+<view><u-popup vue-id="289b70bf-1" show="{{show}}" mode="center" round="10" bind:__l="__l" vue-slots="{{['default']}}"><view class="u-p-30 u-p-t-40 u-p-b-40 u-text-center"><view class="u-m-b-20">请先登录</view><view><text style="color:red;margin-right:10rpx;">{{dateTime}}</text>秒后将跳转到登录页面</view></view></u-popup></view>

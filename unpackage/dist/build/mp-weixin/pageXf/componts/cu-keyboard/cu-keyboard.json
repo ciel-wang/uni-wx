@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-transition": "/pageXf/componts/cu-keyboard/uni-transition"
+  }
+}

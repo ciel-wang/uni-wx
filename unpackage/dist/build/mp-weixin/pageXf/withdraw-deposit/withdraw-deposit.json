@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "提现",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "my-card": "/components/my-card",
+    "u-modal": "/uni_modules/uview-ui/components/u-modal/u-modal",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "cu-keyboard": "/pageXf/componts/cu-keyboard/cu-keyboard"
+  }
+}

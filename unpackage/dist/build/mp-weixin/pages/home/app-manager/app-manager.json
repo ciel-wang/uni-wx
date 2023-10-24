@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "全部应用",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "my-card": "/components/my-card",
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "my-button": "/components/my-button",
+    "my-countdown-login": "/components/my-countdown-login"
+  }
+}

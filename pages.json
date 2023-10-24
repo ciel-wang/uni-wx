@@ -1,0 +1,668 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^my-(.*)": "@/components/my-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false,
+								"navigationStyle":"custom"
+            }
+            
+        }
+    ,{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "登录",
+		        "enablePullDownRefresh": false,
+						"navigationStyle":"custom"
+		    }
+		    
+		}    
+		,{
+            "path" : "pages/home/personal/personal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/switch-identities/switch-identities",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "身份切换",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/contact-us/contact-us",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/app-manager/app-manager",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "全部应用",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/test/test",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "pageXf",
+			"pages": [
+				
+			{
+                    "path" : "bill/bill",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "消费账单",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "billdetail/billdetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "消费账单详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "statistics/statistics",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "统计",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "recharge/recharge",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "充值",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "wallet/wallet",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "钱包",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "xf-erweima/xf-erweima",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "消费码",
+                    "enablePullDownRefresh": false,
+										"navigationBarBackgroundColor": "#e1d9fb",
+										"navigationStyle": "custom"
+                }
+                
+                }
+                ,{
+                    "path" : "withdraw-deposit/withdraw-deposit",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "提现",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "widthdraw-bill/widthdraw-bill",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "提现账单",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "widthdraw-billdetails/widthdraw-billdetails",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "账单明细",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "chart-analysis/chart-analysis",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "统计",
+                    "enablePullDownRefresh": false,
+										"navigationStyle":"custom"
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pageDorm",
+			"pages": [
+				
+			{
+                    "path" : "maintain-apply/maintain-apply",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "维修申请",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "maintain-records/maintain-records",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "维修单据",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "indorm-monitor/indorm-monitor",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "在寝监控",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "moniter-details/moniter-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "单据详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "dormitory-rules/dormitory-rules",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "maintain-details/maintain-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "单据详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pageKq",
+			"pages": [
+				
+			{
+                    "path" : "oabills/oabills",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "receiptDetail/receiptDetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "单据详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "leave/leave",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "selectedEmp/selectedEmp",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "mykq/mykq",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "summaryDetails/summaryDetails",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pageFk",
+			"pages": [
+				
+			{
+                    "path" : "apply/apply",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "interviewees/interviewees",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "添加被访人",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "visitor/visitor",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "添加来访人员",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "retinue-ask/retinue-ask",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "retinue-details/retinue-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "retinue-formlink/retinue-formlink",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "inviteRecord/inviteRecord",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "appointmentrecord/appointmentrecord",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "qrcode-link/qrcode-link",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "overtime-noleave/overtime-noleave",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "receipt-details/receipt-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "单据详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "visitorEmpInfoDetails/visitorEmpInfoDetails",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "success/success",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "visitor-chart/visitor-chart",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "图表分析",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pageMj",
+			"pages": [
+				
+			{
+                    "path" : "auth/auth",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "权限",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "empAuth/empAuth",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "passage-erweima/passage-erweima",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "通行码",
+                    "enablePullDownRefresh": false,
+										"navigationBarBackgroundColor": "#8fb7ff"
+                }
+                
+                }
+                ,{
+                    "path" : "inOutRecord/inOutRecord",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "进出记录",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "chart-analysis/chart-analysis",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "in-out-details/in-out-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pageZ",
+			"pages": [
+				
+			{
+                    "path" : "my-notification/my-notification",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "消息",
+                    "enablePullDownRefresh": false,
+										"navigationBarBackgroundColor": "#def3d9"
+                }
+                
+                }
+                ,{
+                    "path" : "help-feedback/help-feedback",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "帮助与反馈",
+                    "enablePullDownRefresh": false,
+										"navigationBarBackgroundColor": "#def3d9"
+                }
+                
+                }
+                ,{
+                    "path" : "update-phone/update-phone",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "修改手机号",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "update-carNum/update-carNum",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "车牌号",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "student-list/student-list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "学生列表",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "account-security/account-security",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "账户与安全",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		},
+		{
+			"root": "pageOther",
+			"pages": [
+				
+			{
+                    "path" : "energy-bill/energy-bill",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "节能账单",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "energy-recharge/energy-recharge",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "节能钱包充值",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "energy-wallet/energy-wallet",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "节能钱包",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search-book-records/search-book-records",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "书目检索",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "book-details/book-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "books-periodical-info/books-periodical-info",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "borrow-card/borrow-card",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "borrow-record/borrow-record",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "transfer-out-amount/transfer-out-amount",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// #ifdef H5
+		,"navigationStyle":"custom",
+		"rpxCalcMaxDeviceWidth":1380,
+		"rpxCalcBaseDeviceWidth": 750,
+		"rpxCalcIncludeWidth": 750
+		// #endif
+	},
+	"tabBar":{
+		"custom": true,
+		"position":"bottom",
+		"color":"#606266",
+		"selectedColor":"#1fbcb5",
+		"list":[
+			{"pagePath":"pages/index/index","text":"首页","iconPath":"static/images/shouye1.png","selectedIconPath":"static/images/shouye2.png"},
+			{"pagePath":"pages/home/home","text":"我的","iconPath":"static/images/me1.png","selectedIconPath":"static/images/me2.png"}
+		]
+	},
+	"uniIdRouter": {}
+}

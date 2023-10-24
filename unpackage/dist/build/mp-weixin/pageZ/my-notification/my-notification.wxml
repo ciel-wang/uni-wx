@@ -1,0 +1,1 @@
+<view><movable-area style="width:100%;height:100%;"><movable-view direction="all" out-of-bounds="{{false}}"><u-icon vue-id="985e7ec2-1" name="fanhui2" custom-prefix="custom-icon" size="80" color="#909399" data-event-opts="{{[['^click',[['backClick']]]]}}" bind:click="__e" bind:__l="__l"></u-icon></movable-view><view class="my_notice"></view></movable-area></view>

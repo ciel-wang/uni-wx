@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "登录",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "u--image": "/uni_modules/uview-ui/components/u--image/u--image",
+    "u-form": "/uni_modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "my-button": "/components/my-button",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-list": "/uni_modules/uview-ui/components/u-list/u-list",
+    "u-list-item": "/uni_modules/uview-ui/components/u-list-item/u-list-item",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-action-sheet": "/uni_modules/uview-ui/components/u-action-sheet/u-action-sheet",
+    "u-overlay": "/uni_modules/uview-ui/components/u-overlay/u-overlay",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

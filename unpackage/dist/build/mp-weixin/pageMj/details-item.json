@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty",
+    "my-card": "/components/my-card",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar"
+  },
+  "component": true
+}

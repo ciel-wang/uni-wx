@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "消费码",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#e1d9fb",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "my-card": "/components/my-card",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode",
+    "u-overlay": "/uni_modules/uview-ui/components/u-overlay/u-overlay",
+    "u-image": "/uni_modules/uview-ui/components/u-image/u-image"
+  }
+}

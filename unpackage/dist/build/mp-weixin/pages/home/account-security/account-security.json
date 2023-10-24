@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "账户与安全",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-gap": "/uni_modules/uview-ui/components/u-gap/u-gap",
+    "my-card": "/components/my-card",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag"
+  }
+}

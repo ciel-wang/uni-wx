@@ -1,0 +1,1 @@
+.help_feedback{height:400rpx;background:linear-gradient(180deg,rgba(58,214,20,.15),rgba(58,214,20,0))}.help_feedback_search{width:30%;transition-property:width;transition-duration:.3s}.help_feedback_active{width:70%}

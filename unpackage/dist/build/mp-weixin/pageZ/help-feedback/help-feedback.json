@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "帮助与反馈",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#def3d9",
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "my-card": "/components/my-card",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell"
+  }
+}

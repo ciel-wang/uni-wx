@@ -1,0 +1,134 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/home/personal/personal",
+    "pages/home/switch-identities/switch-identities",
+    "pages/home/account-security/account-security",
+    "pages/home/contact-us/contact-us",
+    "pages/home/student-list/student-list",
+    "pages/home/update-carNum/update-carNum",
+    "pages/home/update-phone/update-phone",
+    "pages/home/app-manager/app-manager",
+    "pages/home/test/test"
+  ],
+  "subPackages": [
+    {
+      "root": "pageXf",
+      "pages": [
+        "bill/bill",
+        "billdetail/billdetail",
+        "statistics/statistics",
+        "recharge/recharge",
+        "wallet/wallet",
+        "xf-erweima/xf-erweima",
+        "withdraw-deposit/withdraw-deposit",
+        "widthdraw-bill/widthdraw-bill",
+        "widthdraw-billdetails/widthdraw-billdetails",
+        "chart-analysis/chart-analysis"
+      ]
+    },
+    {
+      "root": "pageDorm",
+      "pages": [
+        "maintain-apply/maintain-apply",
+        "maintain-records/maintain-records",
+        "indorm-monitor/indorm-monitor",
+        "moniter-details/moniter-details",
+        "dormitory-rules/dormitory-rules",
+        "maintain-details/maintain-details"
+      ]
+    },
+    {
+      "root": "pageKq",
+      "pages": [
+        "oabills/oabills",
+        "receiptDetail/receiptDetail",
+        "leave/leave",
+        "selectedEmp/selectedEmp",
+        "mykq/mykq",
+        "summaryDetails/summaryDetails"
+      ]
+    },
+    {
+      "root": "pageFk",
+      "pages": [
+        "apply/apply",
+        "interviewees/interviewees",
+        "visitor/visitor",
+        "retinue-ask/retinue-ask",
+        "retinue-details/retinue-details",
+        "retinue-formlink/retinue-formlink",
+        "inviteRecord/inviteRecord",
+        "appointmentrecord/appointmentrecord",
+        "qrcode-link/qrcode-link",
+        "overtime-noleave/overtime-noleave",
+        "receipt-details/receipt-details",
+        "visitorEmpInfoDetails/visitorEmpInfoDetails",
+        "success/success",
+        "visitor-chart/visitor-chart"
+      ]
+    },
+    {
+      "root": "pageMj",
+      "pages": [
+        "auth/auth",
+        "empAuth/empAuth",
+        "passage-erweima/passage-erweima",
+        "inOutRecord/inOutRecord",
+        "chart-analysis/chart-analysis",
+        "in-out-details/in-out-details"
+      ]
+    },
+    {
+      "root": "pageZ",
+      "pages": [
+        "my-notification/my-notification",
+        "help-feedback/help-feedback"
+      ]
+    },
+    {
+      "root": "pageOther",
+      "pages": [
+        "energy-bill/energy-bill",
+        "energy-recharge/energy-recharge",
+        "energy-wallet/energy-wallet",
+        "search-book-records/search-book-records",
+        "book-details/book-details",
+        "books-periodical-info/books-periodical-info",
+        "borrow-card/borrow-card",
+        "borrow-record/borrow-record",
+        "transfer-out-amount/transfer-out-amount"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "position": "bottom",
+    "color": "#606266",
+    "selectedColor": "#1fbcb5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/shouye1.png",
+        "selectedIconPath": "static/images/shouye2.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/images/me1.png",
+        "selectedIconPath": "static/images/me2.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}
